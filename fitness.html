@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Fitness Todo List</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1 class="title"> My To-Do List</h1>
+	<div class="header">
+		<h3 class="My_List_Title">My List</h3>
+		<nav>
+		<ul>
+			<li><a href="fitness.html">Fitness</a></li>
+			<li><a href="groceries.html">Groceries</a></li>
+			<li><a href="work.html">Work</a></li>
+		</ul>
+			<form action="">
+			<input type="text"
+				class="new list"
+				   placeholder="new_list_name"
+				   aria_label="new_list_name">
+			<button class="btn list"
+					aria_label="create_new_list">+</button>
+			
+			</form>
+		</nav>
+	</div>
+	
+	<div class="to_do_list">
+	<div class="to_do_header">
+		<h2 title="list_title">Fitness</h2>
+		<p class="task_count">3 tasks remaining</p>
+		</div>
+	<div class="to_do_body">
+		<div class="tasks">
+		<div class="task">
+			<input type="checkbox" id="task-1">
+			<label for="task-1">
+			<span class="custom-checkbox"></span>
+			Do Squats</label>
+			</div>
+		</div>
+		<div class="task">
+			<input type="checkbox" id="task-2">
+			<label for="task-2">
+			<span class="custom-checkbox"></span>
+			Do jogging for half-an hour</label>
+			</div>
+		</div>
+	<div class="task">
+			<input type="checkbox" id="task-3">
+			<label for="task-3">
+			<span class="custom-checkbox"></span>
+			Do planks</label>
+			</div>
+		</div>
+	</div>
+	<div class="new_task_creator">
+	<form action="">
+		<input type="text" class="new_list" placeholder="new_task_name" aria-label="new task name">
+		<button class="btn_task"
+				aria_label="create new task">+</button>
+		</form>
+	</div>
+	<div class="delete stuff">
+	<button class="btn delete">Clear Completed Tasks</button>
+	<button class="btn delete">Delete List</button>
+	</div>
+</body>
+</html>
